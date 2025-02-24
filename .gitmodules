@@ -1,0 +1,9 @@
+[submodule "views"]
+	path = views
+	url = https://github.com/mappinghub/views.git
+[submodule "mappings"]
+	path = mappings
+	url = https://github.com/mappinghub/mappings.git
+[submodule "elements"]
+	path = elements
+	url = https://github.com/mappinghub/elements.git
