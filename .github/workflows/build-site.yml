@@ -50,9 +50,9 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         folder: views/site
-        branch: main
+        branch: master
         CLEAN: true
-        ssh-key: ${{ secrets.IO_DEPLOY_KEY }}
+        ssh-key: true # ${{ secrets.IO_DEPLOY_KEY }}
         repository-name: mappinghub/mappinghub.github.io
         
 
